@@ -10,7 +10,7 @@ import com.customer.service.CustomerService;
 
 @RestController
 public class CustomerController {
- //customerService
+ //customerService,@Autowired
 	@Autowired
 	CustomerService customerService;
 
